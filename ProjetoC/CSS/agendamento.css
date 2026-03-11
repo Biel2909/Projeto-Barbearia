@@ -1,0 +1,74 @@
+*{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#horario{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0px;
+    border-color: black;
+
+}
+#card-d1{
+    background-color: #d2f027b0;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    border: solid;
+}
+#form{
+   display: flex;
+   flex-direction: column;; 
+}
+#btn{
+    background-color: #d2f027b0;
+    color: black;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: solid 2px;
+    position: relative;
+    left: 30%;
+    bottom: 20px;
+   
+}
+#btn:hover{
+    background-color: gray;
+    color: white;
+}
+#nome, #data, #servico, #hora{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 90%;
+    box-sizing: border-box;
+    position: relative;
+    left:10px
+}
+#teste {
+  position: relative;
+  height: 20px;
+  margin:auto;
+}
+
+#agen {
+  position: absolute;
+  top: 30px;
+  background-color: #222;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-size: 14px;
+  width: max-content;
+}
+
+ 
